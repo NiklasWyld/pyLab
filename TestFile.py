@@ -1,0 +1,3 @@
+import selfupdate
+
+selfupdate.update()
