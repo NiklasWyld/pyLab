@@ -5,6 +5,7 @@ import sys
 from PIL import Image
 import threading
 
+# Test comment
 app = QApplication(sys.argv)
 
 def selectPath(p):
@@ -93,7 +94,7 @@ lyt.addWidget(convert_b, 7, 0, 1, 0, Qt.AlignCenter)
 
 w.setLayout(lyt)
 w.setGeometry(0, 0, 600, 600)
-w.setWindowTitle('Resize Image')
+w.setWindowTitle('Image Reziser')
 w.show()
 
 sys.exit(app.exec_())
