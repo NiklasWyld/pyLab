@@ -1,3 +1,0 @@
-import selfupdate
-
-selfupdate.update()
